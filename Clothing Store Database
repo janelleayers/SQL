@@ -1,0 +1,18 @@
+CREATE table STORE(id INTEGER Primary Key, Apparel text, Price integer, aisle INTEGER, material text);
+INSERT INTO STORE Values (1, "Sweater", 15, 2, "Cotton");
+INSERT INTO STORE Values (2, "T-shirt", 10, 1, "Cotton"); 
+INSERT INTO STORE Values (3, "Coats", 55, 5, "Polyester");
+INSERT INTO STORE Values (4, "Cardigans", 35, 2, "Cotton"); 
+INSERT INTO STORE Values (5, "Jeans", 70, 7, "Cotton"); 
+INSERT INTO STORE Values (6, "Bikinis", 30, 4, "Cotton"); 
+INSERT INTO STORE Values (7, "Leggings", 20, 3, "Spandex"); 
+INSERT INTO STORE Values (8, "One-Pieces", 25, 4, "Cotton");
+INSERT INTO STORE Values (9, "Shorts", 50, 3, "Cotton"); 
+INSERT INTO STORE Values (10, "Long Sleeve Blouses", 45, 5, "Cotton"); 
+INSERT INTO STORE Values (11, "Short-Sleeve Blouses", 40, 5, "Cotton"); 
+INSERT INTO STORE Values (12, "Tank-Tops", 18, 1, "Cotton");
+INSERT INTO STORE Values (13, "Bathing Suit Cover-ups", 37, 4, "Cotton"); 
+INSERT INTO STORE Values (14, "PJ Sets", 43, 6, "Cotton"); 
+INSERT INTO STORE Values (15, "Sweat Pants", 28, 6, "Cotton"); 
+
+SELECT * FROM STORE GROUP BY price; 
